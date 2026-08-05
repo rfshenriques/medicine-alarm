@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#0B1B34"
+    android:padding="18dp">
+
+    <TextView
+        android:id="@+id/txt_clock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="#FFD24A" />
+
+    <TextView
+        android:id="@+id/txt_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:lineSpacingMultiplier="1.1"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/txt_hint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textColor="#9FB6D6" />
+
+    <FrameLayout
+        android:id="@+id/button_area"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="14dp"
+        android:clickable="true"
+        android:focusable="true">
+
+        <Button
+            android:id="@+id/btn_dismiss"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|start"
+            android:minWidth="180dp"
+            android:minHeight="76dp"
+            android:paddingStart="26dp"
+            android:paddingEnd="26dp"
+            android:textSize="21sp"
+            android:textStyle="bold"
+            android:textColor="#0B1B34"
+            android:background="@drawable/btn_dismiss_bg" />
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/btn_snooze"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="6dp"
+        android:text="@string/btn_snooze"
+        android:textSize="14sp"
+        android:textColor="#9FB6D6"
+        android:background="@android:color/transparent"
+        android:visibility="gone" />
+</LinearLayout>

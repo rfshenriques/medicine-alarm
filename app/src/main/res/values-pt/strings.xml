@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Alarme do Remédio</string>
+    <string name="subtitle">Aviso grande em ecrã inteiro, com um botão que nunca fica no mesmo sítio.</string>
+
+    <string name="default_message">Está na hora de tomar o medicamento</string>
+    <string name="channel_name">Alarmes do medicamento</string>
+    <string name="channel_desc">Lembretes em ecrã inteiro</string>
+
+    <string name="add_reminder">+ Adicionar lembrete</string>
+    <string name="test_alarm">Testar alarme</string>
+    <string name="settings">Definições</string>
+    <string name="empty_list">Ainda não há lembretes. Toque em “Adicionar lembrete”.</string>
+    <string name="new_reminder">Novo lembrete</string>
+    <string name="edit_reminder">Editar lembrete</string>
+    <string name="edit">Editar</string>
+    <string name="delete">Apagar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="save">Guardar</string>
+    <string name="saved">Guardado</string>
+    <string name="on">LIGADO</string>
+    <string name="off">DESLIGADO</string>
+    <string name="every_day">Todos os dias</string>
+    <string name="no_days">Nenhum dia selecionado</string>
+    <string name="confirm_delete">Apagar o lembrete das %1$s?</string>
+
+    <string name="label_message">Mensagem que aparece no ecrã</string>
+    <string name="label_days">Dias</string>
+    <string name="select_all_days">Selecionar todos os dias</string>
+    <string name="day_mon">Segunda-feira</string>
+    <string name="day_tue">Terça-feira</string>
+    <string name="day_wed">Quarta-feira</string>
+    <string name="day_thu">Quinta-feira</string>
+    <string name="day_fri">Sexta-feira</string>
+    <string name="day_sat">Sábado</string>
+    <string name="day_sun">Domingo</string>
+
+    <string name="btn_taken">JÁ TOMEI</string>
+    <string name="btn_hold_counting">CONTINUE A PREMIR… %1$d</string>
+    <string name="btn_snooze">Avisar outra vez daqui a 10 minutos</string>
+    <string name="hint_default">Procure o botão e toque — ele muda de sítio sempre</string>
+    <string name="hint_wait">Tome o medicamento… %1$d</string>
+
+    <string name="setting_delay">Atraso até o botão aparecer</string>
+    <string name="setting_delay_desc">Mantém o aviso no ecrã tempo suficiente para ser lido.</string>
+    <string name="delay_none">Sem atraso</string>
+    <string name="delay_3">3 segundos</string>
+    <string name="delay_5">5 segundos</string>
+    <string name="delay_10">10 segundos</string>
+    <string name="setting_hold">Exigir premir e manter (3 s)</string>
+    <string name="setting_hold_desc">Um toque rápido por reflexo não desliga o alarme.</string>
+    <string name="setting_snooze">Mostrar o botão de adiar 10 minutos</string>
+    <string name="setting_snooze_desc">Deixe desligado se ele o puder usar por hábito.</string>
+
+    <string name="perm_intro">Para o alarme tocar sempre, falta autorizar:</string>
+    <string name="perm_exact">Alarmes e lembretes (alarmes exatos)</string>
+    <string name="perm_overlay">Sobrepor a outras aplicações</string>
+    <string name="perm_battery">Utilização de bateria sem restrições</string>
+    <string name="fix_now">Autorizar a próxima permissão</string>
+
+    <string-array name="day_short">
+        <item>Seg</item>
+        <item>Ter</item>
+        <item>Qua</item>
+        <item>Qui</item>
+        <item>Sex</item>
+        <item>Sáb</item>
+        <item>Dom</item>
+    </string-array>
+</resources>

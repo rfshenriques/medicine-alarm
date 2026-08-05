@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="18dp">
+
+        <TimePicker
+            android:id="@+id/picker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:timePickerMode="spinner" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="@string/label_message"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edit_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textCapSentences|textMultiLine"
+            android:maxLines="3"
+            android:hint="@string/default_message" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:text="@string/label_days"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <CheckBox android:id="@+id/d1" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/day_mon" />
+            <CheckBox android:id="@+id/d2" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/day_tue" />
+            <CheckBox android:id="@+id/d3" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/day_wed" />
+            <CheckBox android:id="@+id/d4" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/day_thu" />
+            <CheckBox android:id="@+id/d5" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/day_fri" />
+            <CheckBox android:id="@+id/d6" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/day_sat" />
+            <CheckBox android:id="@+id/d7" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/day_sun" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_all_days"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="@string/select_all_days" />
+    </LinearLayout>
+</ScrollView>
